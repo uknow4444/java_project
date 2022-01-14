@@ -13,7 +13,7 @@ public class App {
         bw.flush(); // 출력
 
         int num = Integer.parseInt(br.readLine());    
-         
+
         bw.write(num+"");
         //bw.newLine();
         bw.flush();
@@ -23,9 +23,3 @@ public class App {
         bw.close();
     }
 }
-/*abstract
-NUM && (!(NUM & (NUM-1))
-
-이진수로 한 비트 때만 1일 때 결과가 양수로 나온다
-
-*/

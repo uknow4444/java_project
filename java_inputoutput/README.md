@@ -1,18 +1,7 @@
-## Getting Started
+java 입출력 관련.
+System.in과 System.out을 좀 더 빠르게 동작시키는 방식.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+입력은 상관없으나,
+출력 시에는 bw에 문자열(string)을 넣어준 뒤
+flush 또는 close를 실행해줘야 출력이 됨.
+단, close 시에는 해당 객체 소멸.
